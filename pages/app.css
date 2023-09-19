@@ -1,0 +1,171 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#message{
+    display: none;
+}
+#portal{
+    background-color: #fae6ff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.portal-data{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 0px;
+    border-radius: 10px;
+}
+.portal-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right, #2c3a90 , #96199a);
+}
+.otherdata{
+    border: 1px solid white ;
+    padding: 0px 50px;
+    background-color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.logo>img{
+    width: 50%;
+}
+.classes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+@media only screen and (max-width:240px){
+    .classes{
+        display: flex;
+        flex-direction: column;
+    }
+    .physical{
+        width: 100% !important;
+    }
+    .online{
+        width: 100% !important;
+        margin-top: 20px;
+    }
+}
+.classes>div{
+    border-bottom:1px solid #98189A  ;
+}
+.physical{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(223, 219, 219) ;
+    border-radius: 5px;
+    color: #98189A;
+}
+.physical:hover{
+    border: 1px solid #851b87 ;
+}
+
+.classes>div>a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #98189A;
+}
+.classes>div>a:hover{
+    color: #2c3a90;
+}
+.online{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: #98189A;
+}
+.online:hover{
+    border: 1px  solid #851b87;
+}
+
+.apply>p{
+    color: #808080;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.inputdata>input{
+width: 100%;
+border: none;
+background: none;
+border:  1px solid #98189A;
+border-radius: 5px;
+height: 45px;
+margin-top: 20px;
+}
+.inputdata>select{
+ width: 100%;
+border: none;
+background: none;
+border: 1px solid #98189A ;
+border-radius: 5px;
+height: 40px;
+margin-top: 20px;
+}
+.inputdata>select>option{
+    color: #98189A;
+    font-size: 14px;
+    font-weight: bold;
+}
+.disabled{
+    color: gray !important;
+}
+.Imagemessage{
+    color: #808080;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.alreadyaccount{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0px 50px; */
+}
+.Already>a{
+    color: #98189A;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.signin>a{
+    color: #293B90;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.signup>button{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #2c3a90 , #96199a);
+    border-radius: 10px;
+    padding: 5px 40px;
+    margin-bottom: 40px;
+}
